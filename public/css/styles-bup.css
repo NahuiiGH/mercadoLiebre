@@ -123,6 +123,10 @@ section .banner img{
     
 }
 
+.titulo_form{
+    margin-bottom: 20px;
+}
+
 .contenedor-formularios{
     display: flex;
     justify-content: center;
@@ -182,9 +186,36 @@ section .banner img{
     
 }
 
+
+.boton-registro,
+.boton-borrado{
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: right;
+}
+
+.boton-registro{
+    background-color: #1259c3;    
+    
+}
+
+
+.boton-borrado{
+    background-color: #e79d12c9;
+}
+
 .boton-formulario:hover,
 .boton-registro:hover{
     background-color: #0022AA;
+    cursor: pointer;
+}
+
+.boton-borrado:hover{
+    background-color: #aa5b00;
     cursor: pointer;
 }
 
@@ -194,17 +225,6 @@ section .banner img{
     width: 100%;
 }
 
-
-.boton-registro{
-    background-color: #1259c3;    
-    border: none;
-    font-size: 20px;
-    color: white;
-    padding: 7px 20px;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: right;
-}
 
 
 
