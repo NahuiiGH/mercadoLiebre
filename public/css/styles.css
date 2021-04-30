@@ -1,0 +1,233 @@
+/*Estilos Generales*/
+
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+p{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+/*Estilos del HEADER*/
+
+header{
+    background-color: #EAC926;
+}
+
+header .superior{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    width: 100%;
+}
+
+
+header .logo,
+header .form{
+    width: 50%;
+}
+
+header .logo{
+    padding: 10px;
+    
+}
+
+.superior .logo img{
+    width: 25vw;
+}
+
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+    width: 50%;
+}
+
+header .form .input{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    outline: none;
+    color: #666666;
+    padding: 2px;
+    width: 25vw;
+}
+
+header .form button{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #666666;
+    width: 10%;
+}
+
+header .manito{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav{
+    
+    margin-left: 20px;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li{
+    list-style-type: none;
+
+}
+
+header .burger-menu{
+    text-align: center;
+}
+
+header .burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 38px;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+section .banner img{
+    width: 100%;
+}
+
+/*Estilos de MAIN*/
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #FFFFFF;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+main .ultima-visita,
+main .ofertas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3,
+.cuerpo-producto .desc{
+    color: #666666
+}
+
+.cuerpo-producto .precios{
+    font-size: 18px;
+    width: 30%;
+}
+
+.cuerpo-producto .desc{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+/*Estilos del FOOTER*/
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer section .pie{
+    background-color: #FFFFFF;    
+    margin: 10px 0px;
+
+}
+
+/*Media QUeries*/
+
+
+
+@media (min-width: 361px){
+
+    
+
+    main section article .description{
+        display: block;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+
+
+}
